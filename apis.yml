@@ -1,8 +1,15 @@
 aid: sublime-systems
-name: Sublime
-description: 'Sublime is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+name: Sublime Systems
+description: >-
+  Sublime Systems is a Somerville, Massachusetts cement manufacturer spun out of MIT
+  that makes Sublime Cement, a low-carbon replacement for ordinary portland cement.
+  Its ambient-temperature electrochemical "refinery for rocks" process extracts reactive
+  calcium and silicates from low-value rocks and industrial byproducts and blends them
+  into an ASTM-compliant cement that drops into existing concrete mix designs and
+  equipment. The company sells through general-contractor distribution partners and
+  publishes no developer program, API, SDK or machine-readable contract of any kind.
 url: https://raw.githubusercontent.com/api-evangelist/sublime-systems/refs/heads/main/apis.yml
+image: https://sublime-systems.com/wp-content/uploads/2025/05/image-3.jpg
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +19,12 @@ created: '2026-09-18'
 modified: '2026-09-18'
 tags:
 - Company
+- Cement
+- Construction Materials
+- Climate Tech
+- Decarbonization
+- Manufacturing
+- Electrochemistry
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +33,45 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://sublime-systems.com
+- type: Blog
+  url: https://sublime-systems.com/news/
+- type: BlogRSS
+  url: https://sublime-systems.com/feed/
+- type: PrivacyPolicy
+  url: https://sublime-systems.com/privacy-policy/
+- type: Contact
+  url: https://sublime-systems.com/build/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/sublime-cement/
+- type: Careers
+  url: https://jobs.lever.co/SublimeSystems
+- type: SecondaryMarket
   url: https://www.hiive.com/securities/sublime-systems-stock
+- type: DomainSecurity
+  url: security/sublime-systems-domain-security.yml
+x-enrichment:
+  date: '2026-09-18'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Sublime Systems manufactures low-carbon cement sold through general-contractor
+    distribution partners; sublime-systems.com is a WordPress marketing site with no
+    developer section, and every OpenAPI, GraphQL, llms.txt, agent-card and
+    /.well-known/ path probed on it returned 404.
+  evidence:
+  - url: https://sublime-systems.com/
+    status: 200
+  - url: https://sublime-systems.com/developers
+    status: 404
+  - url: https://sublime-systems.com/openapi.json
+    status: 404
+  - url: https://sublime-systems.com/.well-known/agent-card.json
+    status: 404
+  - url: https://sublime-systems.com/.well-known/security.txt
+    status: 404
+  checked: '2026-09-18'

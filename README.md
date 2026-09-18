@@ -64,5 +64,11 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Sublime is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.hiive.com/securities/sublime-systems-stock
+Sublime Systems is a Somerville, Massachusetts cement manufacturer spun out of MIT that makes Sublime Cement, a low-carbon replacement for ordinary portland cement. Its ambient-temperature electrochemical process extracts reactive calcium and silicates from low-value rocks and industrial byproducts and blends them into an ASTM-compliant cement that drops into existing concrete mix designs and equipment.
+
+**API surface:** none. Sublime Systems sells a physical product through general-contractor distribution partners and publishes no developer program, API reference, SDK, or machine-readable contract. Every `/.well-known/`, OpenAPI, GraphQL and agent-card path probed on `sublime-systems.com` returned 404 (see `well-known/`). This profile records that absence honestly rather than scoring it as a gap the company could close.
+
+- Website: https://sublime-systems.com
+- News: https://sublime-systems.com/news/
+- Build with Sublime (contact): https://sublime-systems.com/build/
+- Secondary-market listing: https://www.hiive.com/securities/sublime-systems-stock
